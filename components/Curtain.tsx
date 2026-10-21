@@ -408,8 +408,7 @@ export default function ShowtimeCountdown({
         <div className="grain" />
       </div>
 
-      {showPreviewButton && (
-        <button
+   {false && (
           type="button"
           className="preview-btn"
           onClick={triggerUnlock}
